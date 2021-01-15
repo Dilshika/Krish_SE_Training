@@ -1,9 +1,10 @@
 package com.virtusa.Exception.UncheckedException;
 
 public class DividebyZeroException extends RuntimeException{
-    DividebyZeroException(String message){
+    public DividebyZeroException(String message){
         super(message);
-    }DividebyZeroException(String message,Exception exception){
+    }
+    public DividebyZeroException(String message,Exception exception){
         super(message,exception);
     }
 }
