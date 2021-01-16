@@ -1,24 +1,16 @@
 package com.virtusa.DesignPatterns.Prototype;
 
-public abstract class Room {
+public abstract class Room implements Cloneable{
+
     private String roomPackage;
-    private String roomType;
     private int roomNumber;
 
     public String getRoomPackage() {
         return roomPackage;
     }
 
-    public void setRoomPackage(String roomPackage) {
-        this.roomPackage = roomPackage;
-    }
-
-    public String getRoomType() {
-        return roomType;
-    }
-
-    public void setRoomType(String roomType) {
-        this.roomType = roomType;
+    public void setRoomPackage(String roomType) {
+        this.roomPackage = roomType;
     }
 
     public int getRoomNumber() {
@@ -32,9 +24,13 @@ public abstract class Room {
     @Override
     public String toString() {
         return "Room{" +
-                "roomPackage='" + roomPackage + '\'' +
-                ", roomType='" + roomType + '\'' +
+                "roomType='" + roomPackage + '\'' +
                 ", roomNumber=" + roomNumber +
                 '}';
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }
