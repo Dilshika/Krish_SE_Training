@@ -13,7 +13,9 @@ public abstract class CarType {
     protected abstract void createCar();
 
     @Override
-    public String toString(){
-        return "CarType{"+"Car"+cars+"}";
+    public String toString() {
+        return "CarType{" +
+                "cars=" + cars +
+                '}';
     }
 }
