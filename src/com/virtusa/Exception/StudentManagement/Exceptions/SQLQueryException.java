@@ -1,6 +1,7 @@
 package com.virtusa.Exception.StudentManagement.Exceptions;
 
 public class SQLQueryException extends Exception{
+    private static final long serialVersionUID=1L;
 
         public SQLQueryException(String message){
             super(message);

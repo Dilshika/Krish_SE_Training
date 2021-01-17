@@ -1,6 +1,7 @@
 package com.virtusa.Exception.StudentManagement.Exceptions;
 
 public class DatabaseEmptyException extends Exception{
+    private static final long serialVersionUID=1L;
     public DatabaseEmptyException(String message){
         super(message);
     }

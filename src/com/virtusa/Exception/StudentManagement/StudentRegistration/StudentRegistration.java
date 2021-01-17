@@ -19,10 +19,9 @@ public class StudentRegistration {
 
     public static void nameValidation() throws IllegalCharacterException {
 
-        boolean isvalid = name.matches("(?i)(^[a-z])((?![ .,'-]$)[a-z .,'-]){0,24}$");
+        //boolean isvalid = name.matches("(?i)(^[a-z])((?![ .,'-]$)[a-z .,'-]){0,24}$");
 
         // if(isvalid){ phoneNumberVallidation();}else{throw new IllegalCharacterException("Name cannot have illegal characters");}
-
         try {
             phoneNumberVallidation();
         } catch ( IllegalFormatException exception ) {
@@ -44,7 +43,6 @@ public class StudentRegistration {
 
 
     public static void addCourse() throws DatabaseEmptyException {
-
         //course load query
         try {
             addStudent();
