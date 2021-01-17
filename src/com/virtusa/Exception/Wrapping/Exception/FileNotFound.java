@@ -1,4 +1,4 @@
-package com.virtusa.Wrapping.Exception;
+package com.virtusa.Exception.Wrapping.Exception;
 
 public class FileNotFound extends RuntimeException{
     public FileNotFound(String message){

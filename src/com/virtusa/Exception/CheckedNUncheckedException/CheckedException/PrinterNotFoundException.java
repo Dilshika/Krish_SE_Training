@@ -1,4 +1,4 @@
-package com.virtusa.Exception.CheckedException;
+package com.virtusa.Exception.CheckedNUncheckedException.CheckedException;
 
 public class PrinterNotFoundException extends Exception{
     public PrinterNotFoundException(String message){

@@ -1,5 +1,5 @@
-package com.virtusa.Wrapping.LibraryManagement;
-import com.virtusa.Wrapping.Exception.FileNotFound;
+package com.virtusa.Exception.Wrapping.LibraryManagement;
+import com.virtusa.Exception.Wrapping.Exception.FileNotFound;
 
 import java.io.IOException;
 

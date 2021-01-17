@@ -1,4 +1,4 @@
-package com.virtusa.StudentManagement.Exceptions;
+package com.virtusa.Exception.StudentManagement.Exceptions;
 
 public class IllegalCharacterException extends Exception{
 
