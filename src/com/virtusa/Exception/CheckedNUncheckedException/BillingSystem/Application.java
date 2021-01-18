@@ -13,7 +13,7 @@ public class Application {
         System.out.println("Enter tax rate");
         int taxRate = scanner.nextInt();
 
-        BillPayment billPayment = new BillPayment(billAmount, taxRate);
+        Payment billPayment = new Payment(billAmount, taxRate);
         try {
             billPayment.calculateAmount();
         } catch ( DividebyZeroException exception ) {
@@ -24,7 +24,7 @@ public class Application {
         boolean isPrint = scanner.nextBoolean();
 
         if (isPrint) {
-            PrintBill bill = new PrintBill();
+            Print bill = new Print();
             try {
                 bill.printBill();
             } catch ( PrinterNotFoundException exception ) {

@@ -5,11 +5,11 @@ import com.virtusa.Exception.StudentManagement.Exceptions.IllegalFormatException
 import com.virtusa.Exception.StudentManagement.Exceptions.SQLQueryException;
 
 
-public class StudentValidation {
+public class Student {
 
     private static String number, name;
 
-    StudentValidation(String name, String number) {
+    Student(String name, String number) {
         this.name = name;
         this.number = number;
 
@@ -22,7 +22,7 @@ public class StudentValidation {
 
         // if(isvalid){ phoneNumberVallidation();}else{throw new IllegalCharacterException("Name cannot have illegal characters");}
         try {
-            phoneNumberVallidation();
+            phoneNumberValidation();
         } catch ( IllegalFormatException exception ) {
 
             throw new IllegalCharacterException("Name cannot have illegal characters", exception);
@@ -31,17 +31,25 @@ public class StudentValidation {
     }
 
     //check format of phone number
-    public static void phoneNumberVallidation() throws IllegalFormatException {
+    public static void phoneNumberValidation() throws IllegalFormatException {
         //boolean isvalid = number.matches("077-777-7777");
         //if (isvalid) {}else{ throw new IllegalFormatException("Illegal format of phone number");}
             try {
-                GetCourse.getCourse();
+                Course.getCourse(); //call the function to load the course names
             } catch ( DatabaseEmptyException exception ) {
                 throw new IllegalFormatException("Illegal format of phone number", exception);
             }
         }
 
-
+        //save student to database
+    public static void addStudent() throws SQLQueryException {
+        //query for add student details to database
+        boolean isquery=false;
+        if (isquery) {
+        } else {
+            throw new SQLQueryException("Insert SQL Query is invalid");
+        }
+    }
 
 
 }

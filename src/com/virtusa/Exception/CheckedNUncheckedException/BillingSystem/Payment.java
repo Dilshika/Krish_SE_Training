@@ -3,11 +3,11 @@ package com.virtusa.Exception.CheckedNUncheckedException.BillingSystem;
 import com.virtusa.Exception.CheckedNUncheckedException.UncheckedException.DividebyZeroException;
 
 
-public class BillPayment {
+public class Payment {
     public static int total,billAmount;
     public static int taxRate;
 
-    BillPayment(int total,int taxRate){
+    Payment(int total, int taxRate){
         this.total=total;
         this.taxRate=taxRate;
     }

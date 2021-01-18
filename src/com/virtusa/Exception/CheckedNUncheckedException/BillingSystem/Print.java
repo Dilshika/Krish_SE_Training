@@ -2,7 +2,7 @@ package com.virtusa.Exception.CheckedNUncheckedException.BillingSystem;
 
 import com.virtusa.Exception.CheckedNUncheckedException.CheckedException.PrinterNotFoundException;
 
-public class PrintBill {
+public class Print {
     public  static void printBill() throws PrinterNotFoundException {
         //call the print spooler
         //implementation codes
