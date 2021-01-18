@@ -1,6 +1,4 @@
-package com.virtusa.exception.exceptiontypes.billingsystem;
-
-import com.virtusa.exception.exceptiontypes.uncheckedexception.DividebyZeroException;
+package com.virtusa.exception.uncheckedexception;
 
 
 public class Payment {

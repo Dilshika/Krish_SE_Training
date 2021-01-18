@@ -1,4 +1,4 @@
-package com.virtusa.exception.exceptiontypes.checkedexception;
+package com.virtusa.exception.checkedexception;
 
 public class PrinterNotFoundException extends Exception{
     private static final long serialVersionUID=1L;

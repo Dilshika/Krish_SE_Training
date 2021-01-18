@@ -1,6 +1,6 @@
-package com.virtusa.exception.exceptiontypes.billingsystem;
+package com.virtusa.exception.checkedexception;
 
-import com.virtusa.exception.exceptiontypes.checkedexception.PrinterNotFoundException;
+import com.virtusa.exception.checkedexception.PrinterNotFoundException;
 
 public class Print {
     public  static void printBill() throws PrinterNotFoundException {

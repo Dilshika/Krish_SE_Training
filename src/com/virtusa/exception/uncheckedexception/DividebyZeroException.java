@@ -1,4 +1,4 @@
-package com.virtusa.exception.exceptiontypes.uncheckedexception;
+package com.virtusa.exception.uncheckedexception;
 
 public class DividebyZeroException extends RuntimeException{
     private static final long serialVersionUID=1L;
