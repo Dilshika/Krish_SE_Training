@@ -1,8 +1,5 @@
 package com.virtusa.exception.uncheckedexception;
 
-import com.virtusa.exception.checkedexception.PrinterNotFoundException;
-import com.virtusa.exception.checkedexception.Print;
-
 import java.util.Scanner;
 
 public class Application {

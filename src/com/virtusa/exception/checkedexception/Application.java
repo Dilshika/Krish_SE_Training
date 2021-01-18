@@ -9,7 +9,7 @@ public class Application {
         boolean isPrint = scanner.nextBoolean();
 
         if (isPrint) {
-            Print bill = new Print();
+            Printer bill = new Printer();
             try {
                 bill.printBill();
             } catch ( PrinterNotFoundException exception ) {
