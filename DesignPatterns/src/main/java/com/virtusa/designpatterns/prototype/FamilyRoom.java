@@ -1,4 +1,4 @@
-package com.virtusa.designpatterns.prototype;
+package main.java.com.virtusa.designpatterns.prototype;
 
 public class FamilyRoom extends Room{
     private int numberOfBeds;

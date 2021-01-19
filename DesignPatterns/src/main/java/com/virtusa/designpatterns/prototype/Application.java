@@ -1,6 +1,9 @@
-package com.virtusa.designpatterns.prototype;
+package main.java.com.virtusa.designpatterns.prototype;
+
+/*Hotel Room Booking System Example*/
 
 public class Application {
+
     public static void main(String[] args) {
 
         RoomRegistry roomRegistry=new RoomRegistry();

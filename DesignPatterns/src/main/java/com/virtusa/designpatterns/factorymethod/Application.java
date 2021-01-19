@@ -1,7 +1,11 @@
-package com.virtusa.designpatterns.factorymethod;
+package main.java.com.virtusa.designpatterns.factorymethod;
+
+/*Car Showroom System Example*/
 
 public class Application {
+
     public static void main(String[] args) {
+
         CarType type=CarFactory.createCar(CarTypeCode.ELECTRICAL);
         System.out.println(type);
 

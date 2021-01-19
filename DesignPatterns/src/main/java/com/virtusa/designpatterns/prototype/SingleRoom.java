@@ -1,4 +1,4 @@
-package com.virtusa.designpatterns.prototype;
+package main.java.com.virtusa.designpatterns.prototype;
 
 public class SingleRoom extends Room{
     private int spentTime;   //time in hours
