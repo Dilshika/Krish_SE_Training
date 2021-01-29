@@ -8,8 +8,9 @@ public class Calculation {
     public void calculateTotal(String word) throws NullStringException{
         int length=word.length();
             if(word==null){
-                throw new NullStringException("String cannot be null");
+                throw new NullStringException("String cannot be null"); //trow exception if word is null
             }
+
         for(int i=0;i<length;i++){
 
             if(word.charAt(i)=='A'| word.charAt(i)=='a'){
