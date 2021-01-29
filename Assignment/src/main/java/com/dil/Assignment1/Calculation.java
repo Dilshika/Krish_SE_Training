@@ -83,6 +83,8 @@ public class Calculation {
             }
             if(word.charAt(i)=='Y'| word.charAt(i)=='y'){
                 sum=sum+25;
+            } if(word.charAt(i)=='Z'| word.charAt(i)=='z'){
+                sum=sum+26;
             }
 
 
