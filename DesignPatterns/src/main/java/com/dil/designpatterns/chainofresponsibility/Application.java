@@ -1,4 +1,4 @@
-package main.java.com.virtusa.designpatterns.chainofresponsibility;
+package main.java.com.dil.designpatterns.chainofresponsibility;
 
 public class Application {
     public static void main(String[] args) {
