@@ -1,4 +1,4 @@
-package main.java.com.virtusa.designpatterns.chainofresponsibility;
+package main.java.com.dil.designpatterns.chainofresponsibility;
 
 public abstract class Handler {
     protected Handler successor;
