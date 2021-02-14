@@ -1,0 +1,6 @@
+customer:
+  type: daily
+price:
+  discount: 3.7
+default:
+  size: extra large

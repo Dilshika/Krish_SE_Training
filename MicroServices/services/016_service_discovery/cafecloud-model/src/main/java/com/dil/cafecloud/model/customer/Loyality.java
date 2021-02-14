@@ -1,0 +1,21 @@
+package com.dil.cafecloud.model.customer;
+
+import lombok.Data;
+
+import javax.persistence.*;
+import java.time.LocalDateTime;
+
+@Entity
+@Table(name = "loyalityPoint")
+@Data
+public class Loyality {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    int orderId;
+
+    @ManyToOne
+    @JoinColumn
+    Customer customer;
+    int point;
+    LocalDateTime expireDate;
+}

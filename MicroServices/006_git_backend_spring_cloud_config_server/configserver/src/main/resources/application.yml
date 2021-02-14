@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Dilshika/MicroServices
+          search-paths:
+            - 'services/*service'
+
+
+

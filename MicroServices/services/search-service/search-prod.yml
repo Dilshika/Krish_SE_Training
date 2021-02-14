@@ -1,0 +1,5 @@
+search:
+ result:
+  perpage: 200
+ isavailable: true
+ isdeliver: false

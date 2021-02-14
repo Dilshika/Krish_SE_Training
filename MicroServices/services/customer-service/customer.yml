@@ -1,0 +1,8 @@
+customer:
+   type: daily
+price:
+   discount: 2
+default:
+   size: small
+
+  

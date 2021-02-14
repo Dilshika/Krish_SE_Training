@@ -1,0 +1,6 @@
+customer:
+  type: daily
+price:
+  discount: 3
+default:
+  size: medium

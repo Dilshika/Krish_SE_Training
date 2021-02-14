@@ -1,0 +1,4 @@
+com\dil\cafecloud\model\coffee\Coffee.class
+com\dil\cafecloud\model\customer\Loyality.class
+com\dil\cafecloud\model\customer\Customer.class
+com\dil\cafecloud\model\order\Order.class

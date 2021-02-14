@@ -1,0 +1,9 @@
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  data-center: Badulla-SriLanka
+  environment:  production
+
+server:
+  port: 8761
