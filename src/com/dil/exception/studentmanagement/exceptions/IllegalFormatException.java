@@ -1,4 +1,4 @@
-package com.virtusa.exception.studentmanagement.exceptions;
+package com.dil.exception.studentmanagement.exceptions;
 
 public class IllegalFormatException extends Exception {
     private static final long serialVersionUID=1L;
