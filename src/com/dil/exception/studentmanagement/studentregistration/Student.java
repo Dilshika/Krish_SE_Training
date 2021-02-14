@@ -1,8 +1,8 @@
-package com.virtusa.exception.studentmanagement.studentregistration;
-import com.virtusa.exception.studentmanagement.exceptions.DatabaseEmptyException;
-import com.virtusa.exception.studentmanagement.exceptions.IllegalCharacterException;
-import com.virtusa.exception.studentmanagement.exceptions.IllegalFormatException;
-import com.virtusa.exception.studentmanagement.exceptions.SQLQueryException;
+package com.dil.exception.studentmanagement.studentregistration;
+import com.dil.exception.studentmanagement.exceptions.DatabaseEmptyException;
+import com.dil.exception.studentmanagement.exceptions.IllegalCharacterException;
+import com.dil.exception.studentmanagement.exceptions.IllegalFormatException;
+import com.dil.exception.studentmanagement.exceptions.SQLQueryException;
 
 
 public class Student {
