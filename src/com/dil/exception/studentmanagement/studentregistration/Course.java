@@ -1,4 +1,4 @@
-package com.virtusa.exception.studentmanagement.studentregistration;
+package com.dil.exception.studentmanagement.studentregistration;
 
 import com.virtusa.exception.studentmanagement.exceptions.DatabaseEmptyException;
 import com.virtusa.exception.studentmanagement.exceptions.SQLQueryException;
