@@ -19,7 +19,7 @@ public class Application {
         PaySheet paySheet1=new PaySheet(309,"ASE");
         System.out.println(paySheet1.getPosition()+" "+salary.applySalary(paySheet1));
 
-        PaySheet paySheet2=new PaySheet(309,"Intern");
+        PaySheet paySheet2=new PaySheet(409,"Intern");
         System.out.println(paySheet2.getPosition()+" "+salary.applySalary(paySheet1));
 
 
