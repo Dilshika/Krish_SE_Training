@@ -1,4 +1,4 @@
-package main.java.com.virtusa.designpatterns.prototype;
+package main.java.com.dil.designpatterns.prototype;
 
 import java.util.HashMap;
 import java.util.Map;
