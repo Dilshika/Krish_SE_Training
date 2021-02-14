@@ -1,4 +1,4 @@
-package main.java.com.virtusa.designpatterns.factorymethod;
+package main.java.com.dil.designpatterns.factorymethod;
 
 public class CarFactory {
     public static CarType createCar(CarTypeCode typeCode){
