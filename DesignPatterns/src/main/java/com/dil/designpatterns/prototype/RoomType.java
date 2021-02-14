@@ -1,4 +1,4 @@
-package main.java.com.virtusa.designpatterns.prototype;
+package main.java.com.dil.designpatterns.prototype;
 
 public enum RoomType {
     SINGLE,FAMILY
