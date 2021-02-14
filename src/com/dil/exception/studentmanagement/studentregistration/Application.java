@@ -1,5 +1,5 @@
-package com.virtusa.exception.studentmanagement.studentregistration;
-import com.virtusa.exception.studentmanagement.exceptions.IllegalCharacterException;
+package com.dil.exception.studentmanagement.studentregistration;
+import com.dil.exception.studentmanagement.exceptions.IllegalCharacterException;
 
 
 public class Application {
