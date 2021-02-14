@@ -1,4 +1,4 @@
-package com.virtusa.exception.checkedexception;
+package com.dil.exception.checkedexception;
 
 import java.util.Scanner;
 
